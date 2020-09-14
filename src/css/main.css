@@ -1,0 +1,79 @@
+/*
+GLOBAL
+*/
+.heading-site {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: white; 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+    
+}
+.header .header-menu a {
+    margin-right: 15px;
+    color: #000000;
+}
+
+.header .header-menu a:hover {
+    color: #bdc3c7;
+}
+
+/*
+BANNER
+*/
+.banner {
+    margin-top: -25px;
+}
+.banner .banner-image {
+    position: relative;
+}
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 70;
+}
+
+.banner .banner-content h1 {
+    color: rgb(172, 25, 25);
+    margin-bottom: -205px;
+}
+
+/*
+TRIPTYQUE
+*/
+.about .about-single-element .icon {
+    font-size: 60px;
+    text-align: center;
+}
+.about .about-single-element {
+    text-align: center;
+}
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+}
